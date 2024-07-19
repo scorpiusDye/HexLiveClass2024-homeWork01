@@ -10,16 +10,16 @@
       href="https://fonts.googleapis.com/css2?family=Castoro:ital@0;1&display=swap"
       rel="stylesheet"
     />
+    <link rel="stylesheet" href="all.css" />
   </head>
   <body>
-    <link rel="stylesheet" href="all.css" />
     <main class="my-160px">
       <section class="container mx-auto">
-        <h1 class="fz-128px lh-192px">VITO</h1>
+        <h1 class="fz-128px ls-title">VITO</h1>
         <img class="photo d-block mx-auto" src="./img/vito.png" alt="個人照" />
-        <h2 class="fz-128px text-right lh-192px">RESUME</h2>
+        <h2 class="fz-128px text-right ls-title">RESUME</h2>
       </section>
-      <section class="bg-ef mx-auto">
+      <div class="bg-ef mx-auto">
         <div class="container mx-auto">
           <p class="des-content py-48px ml-auto">
             I'm Vito, a UI Designer with 5+ years of experience. I create
@@ -28,7 +28,7 @@
             collaborating with others to create high-quality products.
           </p>
         </div>
-      </section>
+      </div>
       <section class="container mx-auto">
         <ul class="w-636px mt-80px">
           <li class="mb-40px">
@@ -125,37 +125,43 @@
         </ul>
       </section>
     </main>
-    <footer class="" style="background-color: #000">
-      <section class="container mx-auto footer-icon-list">
-        <a
-          href="#"
-          title="facebook(開新視窗)"
-          target="_blank"
-          rel="noopener noreferrer"
-          class="hover-opacity-80 d-inline-block"
-        >
-            <img src="./img/fb.png" class="" alt="">
-        </a>
-        <a
-          href="#"
-          title="instagram(開新視窗)"
-          target="_blank"
-          rel="noopener noreferrer"
-          class="hover-opacity-80 d-inline-block"
-          style="margin: 0 40px;"
-        >
-            <img src="./img/instagram.png" class="" alt="">
-        </a>
-        <a
-          href="#"
-          title="line(開新視窗)"
-          target="_blank"
-          rel="noopener noreferrer"
-          class="hover-opacity-80 d-inline-block"
-        >
-            <img src="./img/line.png" class="" alt="">
-        </a>
-      </section>
+    <footer style="background-color: #000">
+      <ul class="container mx-auto footer-icon-list d-flex">
+        <li class="d-inline-block">
+          <a
+            href="#"
+            title="facebook(開新視窗)"
+            target="_blank"
+            rel="noopener noreferrer"
+            class="hover-opacity-80"
+          >
+              <img src="./img/fb.png" alt="">
+          </a>
+        </li>
+        <li class="d-inline-block">
+          <a
+            href="#"
+            title="instagram(開新視窗)"
+            target="_blank"
+            rel="noopener noreferrer"
+            class="hover-opacity-80"
+            style="margin: 0 40px;"
+          >
+              <img src="./img/instagram.png" alt="">
+          </a>
+        </li>
+        <li class="d-inline-block">
+          <a
+            href="#"
+            title="line(開新視窗)"
+            target="_blank"
+            rel="noopener noreferrer"
+            class="hover-opacity-80"
+          >
+              <img src="./img/line.png" alt="">
+          </a>
+        </li>
+      </ul>
     </footer>
   </body>
 </html>

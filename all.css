@@ -128,11 +128,10 @@ table {
   border-spacing: 0;
 }
 
+
 body {
   font-family: "Castoro", serif;
-  font-weight: 400;
-  font-style: normal;
-  color: #000;
+  line-height: 1.5
 }
 .d-block {
   display: block;
@@ -155,8 +154,8 @@ body {
 .fz-128px {
   font-size: 128px;
 }
-.lh-192px {
-  line-height: 192px;
+.ls-title{
+  letter-spacing: 15px;
 }
 .photo {
   width: 636px;
@@ -204,6 +203,7 @@ body {
     font-size: 20px;
     color: #949494;
     line-height: 30px;
+    font-style: italic;
 }
 .list-des--hover:hover{
     color: #ae0000;
